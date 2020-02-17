@@ -1,0 +1,17 @@
+{
+  "name": "templateserver",
+  "version": "1.0.0",
+  "description": "server template for docker-compose",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon --watch src/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
